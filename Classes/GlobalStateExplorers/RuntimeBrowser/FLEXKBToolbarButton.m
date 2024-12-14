@@ -46,7 +46,6 @@
         self.layer.cornerRadius  = 5;
         self.clipsToBounds       = NO;
         self.titleLabel.font     = [UIFont systemFontOfSize:18.0];
-        self.layer.flex_continuousCorners = YES;
         [self setTitle:self.title forState:UIControlStateNormal];
         [self sizeToFit];
         
